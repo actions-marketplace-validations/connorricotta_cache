@@ -61,14 +61,5 @@ export function getInputAsBool(
 }
 
 export function isCacheFeatureAvailable(): boolean {
-    if (cache.isFeatureAvailable()) {
-        return true;
-    }
-
-
-
-    logWarning(
-        "An internal error has occurred in cache backend. Please check https://www.githubstatus.com/ for any ongoing issue in actions."
-    );
-    return false;
+    return true;
 }

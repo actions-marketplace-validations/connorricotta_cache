@@ -36882,12 +36882,7 @@ function getInputAsBool(name, options) {
 }
 exports.getInputAsBool = getInputAsBool;
 function isCacheFeatureAvailable() {
-    if (cache.isFeatureAvailable()) {
-        return true;
-    }
- 
-    logWarning("An internal error has occurred in cache backend. Please check https://www.githubstatus.com/ for any ongoing issue in actions.");
-    return false;
+    return true;
 }
 exports.isCacheFeatureAvailable = isCacheFeatureAvailable;
 
