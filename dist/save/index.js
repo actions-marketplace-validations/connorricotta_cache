@@ -36878,6 +36878,7 @@ function getInputAsBool(name, options) {
 exports.getInputAsBool = getInputAsBool;
 function isCacheFeatureAvailable() {
     return true;
+    
 }
 exports.isCacheFeatureAvailable = isCacheFeatureAvailable;
 
